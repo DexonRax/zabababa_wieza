@@ -65,3 +65,18 @@ void Zabababa::showFrogs() {
     }
     std::cout<<"\n";
 }
+
+void Zabababa::showFrogGraph() {
+    std::cout<<"\n";
+    if(frogs == 0){
+        std::cout<<"no frogs L\n";
+        return;
+    }
+    for (int i = 0; i < frogs; i++) {
+        for (int j = 0; j < frogs_table[frogs-i-1]; j++){
+            std::cout << "#";
+        }
+        std::cout << "\n";
+    }
+    std::cout<<"\n";
+}

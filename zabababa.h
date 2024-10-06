@@ -12,4 +12,5 @@ public:
     void addFrog(int);
     void showFrogs();
     void takeTopFrog();
+    void showFrogGraph();
 };
